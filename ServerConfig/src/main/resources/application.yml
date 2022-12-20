@@ -1,11 +1,12 @@
 ## YAML Template
 server:
- port: 8888
+ port: 8088
 spring:
  profiles:
-  active: native
+  active: git
  cloud:
   config:
    server:
-    native:
-     searchLocations: file:////C:/Users/Carlos/Documents/Proyectos_Candre/Ejemplos_Backend 
+    git:
+     uri: https://github.com/CarlosUribe32/ServerConfig_Microservicio
+  
